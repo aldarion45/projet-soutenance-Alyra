@@ -4,7 +4,7 @@
 
 ### Vue d'ensemble
 Le script implémente une mini application web avec Flask.
-Il expose deux endpoints:
+Il expose deux endp0onbh8579œ&  ;÷ø»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»ÊÊ³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³³¥ ?ºººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº¿_=oè(i=-
 - `GET /` : affiche une page HTML avec formulaire d'upload image + seuil de confiance.
 - `POST /predict` : reçoit l'image, lance la prédiction YOLO, renvoie la même page enrichie avec résultats.
 
@@ -100,10 +100,10 @@ Moins de couches techniques (frontend, API gateway, docs OpenAPI, auth) donc moi
 5. **Cohérence avec l'objectif**
 Pour une soutenance orientée IA, Gradio met l'accent sur la valeur modèle et les résultats, pas sur l'infrastructure.
 
-### Limites à mentionner (important en soutenance)
+### Limites
 - Gradio n'est pas une API métier de production à lui seul.
 - Pour industrialiser: FastAPI/Flask API dédiée + contrat JSON + sécurité + monitoring + versioning.
 
-## 5) Pitch oral court (30 secondes)
+## 5) Conclusion
 
 "J'ai choisi Gradio pour accélérer la démonstration de l'inférence YOLO: l'interface, le callback Python et l'affichage des bounding boxes sont intégrés dans un même script. C'était le meilleur compromis pour une soutenance: livrer vite, visualiser clairement les résultats, et comparer deux modèles. En production, je séparerais ensuite en API REST dédiée avec sorties JSON, sécurité et supervision." 
